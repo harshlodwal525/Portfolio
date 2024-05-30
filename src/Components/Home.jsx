@@ -32,7 +32,7 @@ const Home = (e) => {
 
                     hover:shadow-[0_20px_50px_#7e26d193]
                     bg-black-500
-                    '> <a href="mailto:harshlodwal525@gmail.com">👋 Say hello</a></button>
+                    '> <a className='cursor-none' href="mailto:harshlodwal525@gmail.com">👋 Say hello</a></button>
                         <a href="/assets/Harsh_Lodwal_Resume.pdf" download>
                             <button className='px-4 py-[8px] mt-10 
                     text-gray-800 text-medium 
@@ -43,9 +43,9 @@ const Home = (e) => {
                     rgb(253 224 71
                      hover:shadow-[0_20px_50px_rgba(253,_224,_71,_0.3)]
                     bg-yellow-500
-                    hover:bg-yellow-400'>
+                    hover:bg-yellow-400 cursor-none'>
                                 <div className="flex items-center 
-                        justify-center gap-2 font-medium">Resume <box-icon name='download'
+                        justify-center gap-2 font-medium ">Resume <box-icon name='download'
                                         type='solid' color='#09090b' ></box-icon></div>
                             </button>
                         </a>
