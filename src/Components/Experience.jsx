@@ -5,14 +5,17 @@ import Cursor from './Cursor'
 function Experience() {
   return (
     <>
-      <div className="mt-[5%] w-[50%] m-auto"><h1 className='font-bold text-5xl mb-2
+      <Cursor />
+      <div className="mt-[5%] w-[50%] m-auto">
+        {/* <h1 className='font-bold text-5xl mb-2
                     bg-gradient-to-br  from-yellow-300 from-30% to-purple-500 to-90%
                     inline-block text-transparent bg-clip-text pb-3
-                    '>Things I've made trying to put </h1>
+                    '>Experience that I have gained
+        </h1> */}
         <h1 className='font-bold text-5xl mb-5
                     bg-gradient-to-br  from-yellow-300 from-30% to-purple-500 to-90%
                     inline-block text-transparent bg-clip-text pb-5'
-        > my dent in the universe.</h1>
+        > till now from the industry.</h1>
       </div>
       <div className="w-1/2  mx-auto mt-[5%] flex p-4 text-gray-200 bg-gradient
         hover:shadow-xl transform transition-transform duration-200 ease-in-out  
@@ -74,7 +77,6 @@ function Experience() {
         </div>
       </div>
 
-      <Cursor />
     </>
   )
 }

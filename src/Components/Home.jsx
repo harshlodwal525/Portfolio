@@ -29,7 +29,7 @@ const Home = (e) => {
                     border-zinc-800 mr-4 rounded-md bg-zic-900
                     hover:border-purple-600
                     b-gradient-to-br from-gray-900 from-10%  to-black to-90%
-
+                    cursor-none
                     hover:shadow-[0_20px_50px_#7e26d193]
                     bg-black-500
                     '> <a className='cursor-none' href="mailto:harshlodwal525@gmail.com">👋 Say hello</a></button>

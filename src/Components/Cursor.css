@@ -16,3 +16,7 @@
 .cursor-hidden {
     opacity: 0;
 }
+
+body, a {
+    cursor: none;
+}

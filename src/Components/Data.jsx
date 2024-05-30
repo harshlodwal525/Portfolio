@@ -7,9 +7,9 @@ function Data() {
 
        
 
-            <div className="flex flex-wrap ">
+            <div className="flex flex-wrap mt-[3%]">
                 {data.map((d, index) => (
-                    <div key={index} className="flex  flex-col w-1/2 p-3 box-border ">
+                    <div key={index} className="flex  flex-col w-1/2 py-3 pr-3 box-border ">
                         <div className="mr-3 mb-3 p-3 w-full h-[300px] bg-purple-400 bg-opacity-10 rounded-lg flex flex-col hover:shadow-xl transform transition-transform duration-200 ease-in-out hover:-translate-y-4">
                             <div className="m-3 w-[35px] h-[35px] bg-purple-400 flex justify-center items-center rounded-full"> <img src={d.img} alt="" /> </div>
                             <div className="m-3 font-semibold text-purple-200">{d.title} </div>
