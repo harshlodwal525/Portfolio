@@ -1,0 +1,18 @@
+.cursor {
+    z-index: 999;
+    position: fixed;
+    background: rgba(138, 24, 232, 0.3);
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    pointer-events: none;
+    border: 3px solid rgb(246, 246, 243) ;
+    box-shadow: 0 0 20px rgb(138, 20, 235,0.1), 0 0 60px rgba(107, 33, 168,0.4), 0 0 100px rgba(107, 33, 168,0.4);
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    transition: opacity 0.5s ease-out;
+}
+
+.cursor-hidden {
+    opacity: 0;
+}
